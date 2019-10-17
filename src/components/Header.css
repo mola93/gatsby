@@ -29,12 +29,12 @@
   border-radius: 10px;
   outline: none;
   cursor: pointer;
-  transition: 1s;
+  transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .Header button:hover {
   background: white;
-  transform: translate(-3px) rotateY(50deg);
+  transform: translate(-3px);
 }
 
 @media (max-width: 640px) {
